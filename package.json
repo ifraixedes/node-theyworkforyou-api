@@ -1,0 +1,30 @@
+{
+  "name": "theyworkforyou-api",
+  "version": "0.0.1",
+  "description": "The Work For You API node module (http://www.theyworkforyou.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive build/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifraixedes/node-theyworkforyou-api"
+  },
+  "keywords": [
+    "theyworkforyou",
+    "api"
+  ],
+  "author": "Ivan Fraixedes Cugat <ivan@fraicu.com> (http://www.fraicu.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifraixedes/node-theyworkforyou-api/issues"
+  },
+  "homepage": "https://github.com/ifraixedes/node-theyworkforyou-api",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "q": "~0.9.7"
+  }
+}
