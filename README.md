@@ -43,9 +43,18 @@ To launch the tests is as pretty much straightforward as install the module, so
 
 launch the test:
 
-```js
+```
 make test
 ```
+
+## About the development
+I developed this module with [livescript](http://livescript.net/) so if you only are interested in the javascript code you have to compile it doing:
+
+```
+make build
+```
+
+Then you will have the javascript code in ```build``` directory
 
 ## What does it need?
 1. Create a more thorough tests for all the APIs
