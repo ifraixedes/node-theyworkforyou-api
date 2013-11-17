@@ -22,7 +22,8 @@
   "homepage": "https://github.com/ifraixedes/node-theyworkforyou-api",
   "devDependencies": {
     "mocha": "~1.14.0",
-    "chai": "~1.8.1"
+    "chai": "~1.8.1",
+    "chai-as-promised": "~4.1.0"
   },
   "dependencies": {
     "q": "~0.9.7"
