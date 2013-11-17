@@ -23,7 +23,8 @@
   "devDependencies": {
     "mocha": "~1.14.0",
     "chai": "~1.8.1",
-    "chai-as-promised": "~4.1.0"
+    "chai-as-promised": "~4.1.0",
+    "LiveScript": "~1.2.0"
   },
   "dependencies": {
     "q": "~0.9.7"
