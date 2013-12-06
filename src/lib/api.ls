@@ -87,8 +87,8 @@ module.exports = (apiKey) ->
     getCommittee: (optionalParams = {}) ->
       _exec 'getCommittee', optionalParams, null, {date: 'string', name: 'string'}
 
-    getDebates: (id, optionalParams = {}) ->
-      _exec 'getDebates', {id: id} <<< optionalParams, {id: 'string'}, {
+    getDebates: (type, optionalParams = {}) ->
+      _exec 'getDebates', {type: type} <<< optionalParams, {type: 'string'}, {
         date: 'string',
         search: 'string',
         person: 'string',

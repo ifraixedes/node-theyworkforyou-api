@@ -72,7 +72,7 @@ describe 'The Work For You API allow to make the request to', (done) !->
 
   _it 'getDebates', (done) !->
     # No required parameters are provided so an exception should thrown
-    expect myTwfyApi.getDebates() .to.eventually.be.rejected.and.notify done
+    expect myTwfyApi.getDebates 'commons', {date: '2013-01-07'} .to.eventually.be.fulfilled.and.notify done
 
   _it 'getWrans', (done) !->
     expect myTwfyApi.getWrans() .to.eventually.be.rejected.and.notify done
