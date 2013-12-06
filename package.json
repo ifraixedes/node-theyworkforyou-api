@@ -1,6 +1,6 @@
 {
   "name": "theyworkforyou-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Work For You API node module (http://www.theyworkforyou.com)",
   "main": "index.js",
   "scripts": {
